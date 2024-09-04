@@ -1,0 +1,141 @@
+*{margin: 0; padding: 0;}
+
+#tamanho img{
+    margin-left: 450px;
+}
+
+#tamanho_2 img{
+    margin-left: 450px;
+}
+
+
+main h1{
+    margin: 0 auto;
+    padding-left: 200px;
+}
+
+header{
+    background-color: rgb(255, 196, 123);
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 300px;
+}
+
+footer h1{
+    color: darkorange;
+    padding-top: 40px;
+    margin-top: 0.1em;
+}
+
+header h1{
+    color: darkorange;
+    padding-top: 30px;
+    margin-top: 0.1em;
+}
+
+#menu ul{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 2.5em;
+}
+
+#menu li{
+    position: relative;
+}
+
+#menu li a{
+    color: cornflowerblue;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+#menu li a:hover{
+    background: red;
+    color: gold;
+    text-shadow: 0px 0px 5px;
+}
+
+#menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: crimson;
+    display: none;
+}
+
+#menu li:hover ul, #menu li.over ul{
+    display: block;
+}
+
+header, #menu, #menu ul{
+    display: flex;
+}
+
+table{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#fut ul{
+    list-style: none;
+    margin-left: 550px;
+    padding-top: 3.0em;
+}
+
+#fut li{
+    position: relative;
+}
+
+#fut li a{
+    color: cornflowerblue;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+#fut li a:hover{
+    background: red;
+    color: gold;
+    text-shadow: 0px 0px 5px;
+}
+
+#fut li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: crimson;
+    display: none;
+}
+
+#fut li:hover ul, #fut li.over ul{
+    display: block;
+}
+
+footer, #fut, #fut ul{
+    display: flex;
+}
+
+footer{
+    background-color: black;
+}
+
+table p{
+    text-align: justify;
+}
